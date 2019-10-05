@@ -30,6 +30,9 @@ Use the `los` argument and the arguments below to specify that you are processin
 * `-N`: Node file output
 * `-E`: Edge file output
 
+As an example, if you would like to perform accuracy-fuzzing for a line of sight map with name networkAnodes.csv and networkAedges.csv then, the way to call it would be 
+python3 bokeh.py -a accuracy-fuzzing -d 3 los  -n NODESINPUTFILENAME -e EDGESINPUTFILENAME -N NODESOUTPUTFILENAME -E EDGESOUTPUTFILENAME
+
 #### Randomization Options
 
 * `-np`: The node goal probability for tier 3 randomization.
